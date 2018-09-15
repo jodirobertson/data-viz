@@ -8,7 +8,4 @@ Car.prototype.draw = function () {
     // TODO: draw the car
 };
 
-Car.prototype.play = function () {
-    // TODO: play the music
-};
 
