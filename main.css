@@ -1,0 +1,42 @@
+html {
+    background-color: black;
+    
+}
+
+.layout {
+    width: 100%;
+    margin: auto;
+}
+
+.sideMenu {
+    width: 20%;
+    height: 400px;
+    background: gray;
+    float: left;
+}
+.canvas {
+    margin-left: 20%;
+    height: 600px;
+    background: blue;
+}
+
+.title h1 {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.description p {
+    color: white;
+    padding: 30px 30px 15px 30px;
+    text-align: center;
+}
+
+.options {
+    color: white;
+}
+
+.endingCredits p {
+    color: white;
+    text-align: center;
+}
