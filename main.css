@@ -1,6 +1,5 @@
 html {
     background-color: black;
-    
 }
 
 .layout {
@@ -24,19 +23,23 @@ html {
     color: white;
     margin: 10px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .description p {
     color: white;
     padding: 30px 30px 15px 30px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .options {
     color: white;
+    font-family: sans-serif;
 }
 
 .endingCredits p {
     color: white;
     text-align: center;
+    font-family: sans-serif;
 }
