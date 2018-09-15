@@ -14,9 +14,8 @@ html {
     background: gray;
     float: left;
 }
-.canvas {
+canvas {
     margin-left: 20%;
-    height: 600px;
     background: blue;
 }
 
@@ -39,4 +38,8 @@ html {
 .endingCredits p {
     color: white;
     text-align: center;
+}
+
+audio {
+    /* display: none; */
 }
