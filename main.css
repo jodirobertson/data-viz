@@ -1,40 +1,14 @@
-html {
+html, body {
     background-color: black;
+    overflow: hidden;
 }
 
 .layout {
     width: 100%;
-    margin: auto;
 }
 
-.sideMenu {
-    width: 20%;
-    height: 400px;
-    background: gray;
-    float: left;
-}
 canvas {
-    margin-left: 20%;
     background: blue;
-}
-
-.title h1 {
-    color: white;
-    margin: 10px;
-    text-align: center;
-    font-family: sans-serif;
-}
-
-.description p {
-    color: white;
-    padding: 30px 30px 15px 30px;
-    text-align: center;
-    font-family: sans-serif;
-}
-
-.options {
-    color: white;
-    font-family: sans-serif;
 }
 
 .endingCredits p {
@@ -44,5 +18,5 @@ canvas {
 }
 
 audio {
-    /* display: none; */
+    display: none;
 }
