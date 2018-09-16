@@ -1,3 +1,8 @@
+function init() {
+    var canvas = $('#canvas').get(0);
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
 
 // The entire MBTA map
 function Map(lines) {
@@ -76,10 +81,14 @@ Car.prototype.draw = function () {
     var ctx = canvas.getContext("2d");
     ctx.beginPath();
     ctx.arc(this.curPos.x, this.curPos.y, 100 /*radius*/, 0 /*start angle*/, 2*Math.PI /*end angle*/);
+    ctx.stroke();
+    ctx.fillStyle = '#fff';
     ctx.fill();
 };
 
 window.onload = function() { 
+    init();
+    
     var music = new Music(.5);
     music.play();
     music.changeVolume();
