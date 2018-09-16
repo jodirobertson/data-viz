@@ -3,8 +3,12 @@
     <head>
         <title>Title in tab bar.</title>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
+        <audio controls id="cardiacarrest">
+            <source src="music/CardiacArrest.mp3" type="audio/mpeg">
+        </audio>
         <div class="layout">
             <div class="sideMenu">
                 <div class="title">
@@ -16,11 +20,16 @@
                 <div class="options">
                 </div>
             </div>
-            <div class="canvas">
-            </div>
+            <canvas id="canvas" width="1000px" height="1000px">
+                <div class="cars">
+                    <div id="car0"></div>
+                </div>
+            </canvas>
         </div>
         <div class="endingCredits">
             <p>Copyright 2018</p>
         </div>
     </body>
+    
+    <script src="js/car.js"></script>
 </html>

@@ -13,9 +13,8 @@ html {
     background: gray;
     float: left;
 }
-.canvas {
+canvas {
     margin-left: 20%;
-    height: 600px;
     background: blue;
 }
 
@@ -42,4 +41,8 @@ html {
     color: white;
     text-align: center;
     font-family: sans-serif;
+}
+
+audio {
+    /* display: none; */
 }
